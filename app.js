@@ -16,7 +16,7 @@ app.engine('handlebars',handlebars.engine);
 app.set('view engine','handlebars');
 
 //port
-var port = process.env.PORT || 3000;
+var port = process.env.PORT || 8000;
 
 var morgan = require('morgan');
 
